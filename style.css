@@ -29,7 +29,7 @@ nav {
 }
 
 .nav-right {
-  width: 30%;
+  width: 40%;
 }
 
 .nav-right > ul {
@@ -43,14 +43,32 @@ nav {
   color: #fff;
   position: relative;
   z-index: 10;
-  padding: 10px 20px;
-  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 1.2rem;
 }
 
-.nav-right > ul > li > a:hover {
-  background-color: #ee3057;
-  padding: 10px 20px;
-  transition: 0.3s ease-in;
+.nav-right > ul > li > a::before {  
+  transform: scale(0%);
+  transition: 0.3s;
+}
+
+.nav-right > ul > li > a:hover::before {
+  transform: scale(100%);
+  transition: 0.3s;
+}
+
+.nav-right > ul > li > a::before {
+  content: " ";
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: #ee3057;
+  opacity: 0.5;
+  z-index: -1;
+  transition: transform .3s ease;
 }
 
 .landing-hero {
@@ -58,13 +76,15 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
   flex-direction: column;
 }
 .hero-sub {
-  font-size: 30px;
+  font-size: 40px;
 }
 .hero {
-  font-size: 50px;
+  font-size: 80px;
+  color: #ee3057;
 }
 
 .about {
@@ -139,3 +159,20 @@ footer {
   font-weight: bold;
   padding: 28px;
 }
+
+/* Particles JS */
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  height: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+/* Particles Js End */

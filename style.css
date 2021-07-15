@@ -121,7 +121,7 @@ nav {
   flex-direction: column;
   align-items: center;
   padding: 80px 250px 150px 250px;
-  background-color: #000;
+  background-color: rgb(15, 13, 13);
   transition: padding 0.3s;
 }
 
@@ -286,15 +286,15 @@ canvas {
   border-top-color: #3b5a9b;
 }
 .social-icon--instagram {
-  background: #fd1d1d;
+  background: #ee4a54;
   color: #fff;
 }
 .social-icon--instagram .tooltip {
-  background: #fd1d1d;
+  background: #ee4a54;
   color: currentColor;
 }
 .social-icon--instagram .tooltip:after {
-  border-top-color: #fd1d1d;
+  border-top-color: #ee4a54;
 }
 .social-icon--dribbble {
   background: #ef5a92;

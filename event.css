@@ -26,15 +26,28 @@ div.cards {
   margin: 80px auto;
   text-align: center;
 }
+.readMore {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 5px;
+  text-decoration: none;
+  background-color: #ee3057;
+  color: white;
+  z-index: 99;
+}
+.readMore:hover {
+  text-decoration: none;
+  background-color: #eb1c45;
+}
 div.card {
   background: #ffffff;
   display: inline-block;
-  margin: 0px 80px;
+  margin: 0px 30px;
   perspective: 1000;
   position: relative;
   text-align: left;
   transition: all 0.3s 0s ease-in;
-  width: 400px;
+  width: 350px;
   z-index: 1;
 }
 div.card img {
@@ -87,13 +100,13 @@ div.card div.card-title h2 {
 div.card div.card-title h2 small {
   display: block;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.025em;
 }
 div.card div.card-description {
   padding: 0 15px 10px;
   position: relative;
-  font-size: 14px;
+  font-size: 18px;
 }
 div.card div.card-actions {
   box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);

@@ -1,30 +1,30 @@
 $(document).ready(function () {
     var zindex = 10;
 
-    $("div.card").click(function (e) {
+    $(".toggle-info").click(function (e) {
         e.preventDefault();
 
         var isShowing = false;
 
-        if ($(this).hasClass("show")) {
+        if ($(this).parent().parent().hasClass("show")) {
             isShowing = true
         }
 
         if ($("div.cards").hasClass("showing")) {
             // a card is already in view
+
             $("#event").addClass("extra-height");
-            $("div.card.show")
-                .removeClass("show");
+
 
             if (isShowing) {
                 // this card was showing - reset the grid
+                $(this).parent().parent().removeClass("show");
+                $("div.cards").removeClass("showing");
                 $("#event").removeClass("extra-height");
-                $("div.cards")
-                    .removeClass("showing");
             } else {
                 // this card isn't showing - get in with it
                 $("#event").addClass("extra-height");
-                $(this)
+                $(this).parent().parent()
                     .css({ zIndex: zindex })
                     .addClass("show");
 
@@ -37,7 +37,7 @@ $(document).ready(function () {
             $("div.cards")
                 .addClass("showing");
             $("#event").addClass("extra-height");
-            $(this)
+            $(this).parent().parent()
                 .css({ zIndex: zindex })
                 .addClass("show");
 

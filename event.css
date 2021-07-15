@@ -9,19 +9,6 @@ a.btn {
   text-decoration: none;
   transition: all 0.1s 0s ease-out;
 }
-.no-touch a.btn:hover {
-  background: #ee3057;
-  box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
-  transform: translateY(-2px);
-  transition: all 0.25s 0s ease-out;
-}
-.no-touch a.btn:active,
-a.btn:active {
-  background: #ee3057;
-  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
-  transform: translate3d(0, 1px, 0);
-  transition: all 0.025s 0s ease-out;
-}
 div.cards {
   margin: 80px auto;
   text-align: center;
@@ -38,6 +25,7 @@ div.cards {
 .readMore:hover {
   text-decoration: none;
   background-color: #eb1c45;
+  transition: none;
 }
 div.card {
   background: #ffffff;
@@ -46,7 +34,7 @@ div.card {
   perspective: 1000;
   position: relative;
   text-align: left;
-  transition: all 0.3s 0s ease-in;
+  transition: all 0.3s 0s ease-out;
   width: 350px;
   z-index: 1;
 }

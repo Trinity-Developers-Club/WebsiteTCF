@@ -1,4 +1,10 @@
 // Particles JS
+
+setTimeout(() => {
+  window.onload = document.getElementById('preloader').classList.add('loaded')
+}, 3000);
+
+
 particlesJS("particles-js", {
   particles: {
     number: { value: 50, density: { enable: true, value_area: 450 } },

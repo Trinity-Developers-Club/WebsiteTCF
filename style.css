@@ -47,7 +47,7 @@ nav {
   padding-bottom: 10px;
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .nav-right > ul > li > a::before {
@@ -83,10 +83,10 @@ nav {
   flex-direction: column;
 }
 .hero-sub {
-  font-size: 40px;
+  font-size: 26px;
 }
 .hero {
-  font-size: 80px;
+  font-size: 50px;
   color: #ee3057;
 }
 
@@ -95,16 +95,17 @@ nav {
   font-family: Lato;
   display: flex;
   background-image: url("./images/red_curvebg.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-position: bottom;
 }
 .about-title {
   font-weight: bold;
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   padding-bottom: 10px;
   margin-bottom: 40px;
   padding-right: 30px;
@@ -112,7 +113,7 @@ nav {
   border-bottom: #ee3057 3px solid;
 }
 .about-body {
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
   font-family: Rubik;
 }
@@ -120,7 +121,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 250px 150px 250px;
+  padding: 80px 200px 150px 200px;
   background-color: rgb(15, 13, 13);
   transition: padding 0.3s;
 }
@@ -132,14 +133,14 @@ nav {
 
 .event-title {
   color: #fff;
-  font-size: 60px;
+  font-size: 30px;
   padding: 0px 30px 10px 30px;
   border-bottom: 3px solid #ee3057;
   font-weight: bold;
   text-align: center;
 }
 .subtext {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 }
 
@@ -156,7 +157,7 @@ nav {
   border-bottom: 3px solid #ee3057;
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .contact > h3 {
@@ -188,7 +189,7 @@ footer {
   background-color: black;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
   padding: 28px;
 }
 

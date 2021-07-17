@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     var zindex = 10;
 
     $(".toggle-info").click(function (e) {

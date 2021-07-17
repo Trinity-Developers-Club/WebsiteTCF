@@ -1,0 +1,96 @@
+@media (max-width: 1000px) {
+  nav,
+  navbar {
+    padding: 20px 0;
+    height: 5vh;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .col-md-3 {
+    margin: 20px 40px;
+  }
+  .nav-right {
+    width: 100%;
+    padding: 0px;
+  }
+  .nav-right > ul {
+    margin-block-start: 1em;
+    padding-inline-start: 0px;
+    justify-content: center;
+    margin-left: 0% !important;
+    align-items: center;
+  }
+  .nav-right > ul > li > a {
+    padding: 0;
+    font-size: 1rem;
+    margin: 5px;
+  }
+  .branding-name {
+    margin-left: 0%;
+    display: none !important;
+  }
+  .landing-hero {
+    height: 70vh;
+    padding: 0 2%;
+    text-align: center;
+  }
+  .landing-img {
+    height: 40px;
+    display: none;
+  }
+  .hero {
+    font-size: 30px;
+  }
+  .hero-sub {
+    font-size: 20px;
+  }
+  .about,
+  .event,
+  .contact {
+    background-position: left;
+    padding: 70px 20px;
+    text-align: center;
+  }
+  .contact {
+    padding: 40px 20px;
+  }
+  .about-title,
+  .event-title,
+  .contact-title {
+    font-size: 25px;
+  }
+  .about-body,
+  .subtext {
+    font-size: 18px;
+  }
+  #particles-js {
+    height: 80%;
+  }
+  /* Event CSS */
+  div.card {
+    width: 300px;
+    margin: 20px 10px;
+  }
+  div.card div.card-title h2 {
+    font-size: 20px;
+  }
+  .tooltip {
+    display: none;
+  }
+  div.card div.card-title h2 small {
+    font-size: 14px;
+  }
+  .social-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+  footer {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .readMore {
+    font-size: 18px !important;
+  }
+}

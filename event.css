@@ -34,7 +34,7 @@ div.card {
   position: relative;
   text-align: left;
   transition: all 0.3s 0s ease-out;
-  width: 350px;
+  width: 300px;
   z-index: 1;
 }
 div.card img {

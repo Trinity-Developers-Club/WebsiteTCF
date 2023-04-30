@@ -405,6 +405,15 @@ canvas {
 .box .card-footer h3 {
   padding: 2.5px 0;
 }
+.icon{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.icon i{
+  
+  font-size: 30px;
+}
 
 /* Preloader */
 .loaded {
@@ -585,13 +594,4 @@ canvas {
 }
 .text-black {
   color: black;
-}
-.icon{
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-.icon i{
-  
-  font-size: 30px;
 }

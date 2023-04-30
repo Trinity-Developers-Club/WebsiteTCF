@@ -586,3 +586,12 @@ canvas {
 .text-black {
   color: black;
 }
+.icon{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.icon i{
+  
+  font-size: 30px;
+}

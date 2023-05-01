@@ -405,14 +405,20 @@ canvas {
 .box .card-footer h3 {
   padding: 2.5px 0;
 }
+/* icons instagram and linkedIN */
 .icon{
   display: flex;
   gap: 10px;
   justify-content: center;
+  transition: all 0.4s;
+ 
 }
 .icon i{
-  
+  color: white;
   font-size: 30px;
+}
+.icon  :hover{
+  transform: scale(1.2);
 }
 
 /* Preloader */
